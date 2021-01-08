@@ -1,0 +1,47 @@
+body {
+  background: #657786;
+  margin: auto;
+  align-content: center;
+  text-align: center;
+  font-family: 'Baloo Tammudu';
+}
+
+h1 {
+  margin: 5px;
+  font-size: 40px;
+  background: #657786;
+}
+
+.grid_row {
+  background: #3e6698;
+  display: block;
+  height: 70px;
+  align-content: space-around;
+  margin: auto;
+}
+.grid_placer {
+  background: #AAB8C2;
+  display: block;
+  height: 70px;
+  width: auto;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.col {
+  background: white;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+.col.red {
+  background: red;
+}
+
+.col.blue {
+  background: #1DA1F2;
+}
